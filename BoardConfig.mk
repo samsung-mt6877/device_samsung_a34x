@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# APEX
+DEXPREOPT_GENERATE_APEX_IMAGE := true
+
 DEVICE_PATH := device/samsung/a34x
 
 # Architecture
