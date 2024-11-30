@@ -33,7 +33,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     fstab.mt6877 \
-    init.ago.rc \
     init.audio.samsung.rc \
     init.cgroup.rc \
     init.connectivity.common.rc \
@@ -44,12 +43,9 @@ PRODUCT_PACKAGES += \
     init.project.rc \
     init.sec.rc \
     init_conninfra.rc \
-    multi_init.rc \
     init.recovery.mt6877.rc \
-    init.recovery.samsung.rc
-
-PRODUCT_PACKAGES += \
-    init.recovery.mt6877.rc
+    init.recovery.samsung.rc \
+    ueventd.mt6877.rc
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 33

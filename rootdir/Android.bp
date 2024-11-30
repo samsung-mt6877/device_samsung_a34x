@@ -13,13 +13,6 @@ sh_binary {
 
 // Init configuration files
 prebuilt_etc {
-    name: "init.ago.rc",
-    src: "etc/init.ago.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
     name: "init.audio.samsung.rc",
     src: "etc/init.audio.samsung.rc",
     sub_dir: "init/hw",
@@ -89,16 +82,32 @@ prebuilt_etc {
     vendor: true,
 }
 
-prebuilt_etc {
-    name: "multi_init.rc",
-    src: "etc/multi_init.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
 // fstab
 prebuilt_etc {
     name: "fstab.mt6877",
     src: "etc/fstab.mt6877",
+    vendor: true,
+}
+
+// Recovery
+prebuilt_etc {
+    name: "init.recovery.mt6877.rc",
+    src: "etc/init.recovery.mt6877.rc",
+    recovery: true,
+    sub_dir: "init"
+}
+
+prebuilt_etc {
+    name: "init.recovery.samsung.rc",
+    src: "etc/init.recovery.samsung.rc",
+    recovery: true,
+    sub_dir: "init"
+}
+
+// Ueventd
+prebuilt_etc {
+    name: "ueventd.mt6877.rc",
+    filename: "ueventd.rc",
+    src: "etc/ueventd.mt6877.rc",
     vendor: true,
 }
