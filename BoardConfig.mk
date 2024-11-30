@@ -94,6 +94,11 @@ TARGET_COPY_OUT_ODM := odm
 TARGET_BOARD_PLATFORM := mt6877
 BOARD_HAS_MTK_HARDWARE := true
 
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/properties/system.prop
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/configs/properties/product.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/properties/vendor.prop
+
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/init/fstab.mt6877
 TARGET_USERIMAGES_USE_EXT4 := true
