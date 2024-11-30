@@ -110,3 +110,11 @@ prebuilt_etc {
     recovery: true,
     sub_dir: "init"
 }
+
+// Ueventd
+prebuilt_etc {
+    name: "ueventd.mt6877.rc",
+    filename: "ueventd.rc",
+    src: "etc/ueventd.mt6877.rc",
+    vendor: true,
+}

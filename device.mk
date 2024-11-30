@@ -42,7 +42,8 @@ PRODUCT_PACKAGES += \
     init.sec.rc \
     init_conninfra.rc \
     init.recovery.mt6877.rc \
-    init.recovery.samsung.rc
+    init.recovery.samsung.rc \
+    ueventd.mt6877.rc
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 33
