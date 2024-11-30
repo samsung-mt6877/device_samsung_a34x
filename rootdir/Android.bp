@@ -89,13 +89,6 @@ prebuilt_etc {
     vendor: true,
 }
 
-prebuilt_etc {
-    name: "multi_init.rc",
-    src: "etc/multi_init.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
 // fstab
 prebuilt_etc {
     name: "fstab.mt6877",

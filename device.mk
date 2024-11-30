@@ -41,7 +41,6 @@ PRODUCT_PACKAGES += \
     init.project.rc \
     init.sec.rc \
     init_conninfra.rc \
-    multi_init.rc \
     init.recovery.mt6877.rc \
     init.recovery.samsung.rc
 
