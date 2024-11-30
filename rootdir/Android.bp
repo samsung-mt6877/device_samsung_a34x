@@ -13,13 +13,6 @@ sh_binary {
 
 // Init configuration files
 prebuilt_etc {
-    name: "init.ago.rc",
-    src: "etc/init.ago.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
     name: "init.audio.samsung.rc",
     src: "etc/init.audio.samsung.rc",
     sub_dir: "init/hw",
