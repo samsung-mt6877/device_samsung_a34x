@@ -12,6 +12,8 @@ import ${ro.vendor.rc}init.mal.rc
 import /vendor/etc/init/hw/init.stnfc.rc
 import /system/etc/init/hw/init.stnfc.rc
 import ${ro.vendor.rc}init.cgroup.rc
+import /vendor/etc/init/hw/init_conninfra.rc
+import /vendor/etc/init/hw/init.connectivity.common.rc
 
 # init.modem.rc must be the LAST rc file because vold.post_fs_data_done is set in it
 import ${ro.vendor.rc}init.modem.rc
