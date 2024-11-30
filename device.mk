@@ -32,14 +32,12 @@ PRODUCT_PACKAGES += \
     fstab.mt6877 \
     init.audio.samsung.rc \
     init.cgroup.rc \
-    init.connectivity.common.rc \
     init.connectivity.rc \
     init.modem.rc \
     init.mt6877.rc \
     init.mt6877.usb.rc \
     init.project.rc \
     init.sec.rc \
-    init_conninfra.rc \
     init.recovery.mt6877.rc \
     init.recovery.samsung.rc \
     ueventd.mt6877.rc
