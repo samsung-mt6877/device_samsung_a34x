@@ -7,63 +7,63 @@
 // Init scripts
 sh_binary {
     name: "init.insmod.sh",
-    src: "bin/init.insmod.sh",
+    src: "init.insmod.sh",
     vendor: true,
 }
 
 // Init configuration files
 prebuilt_etc {
     name: "init.audio.samsung.rc",
-    src: "etc/init.audio.samsung.rc",
+    src: "init.audio.samsung.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
     name: "init.cgroup.rc",
-    src: "etc/init.cgroup.rc",
+    src: "init.cgroup.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
     name: "init.connectivity.rc",
-    src: "etc/init.connectivity.rc",
+    src: "init.connectivity.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
     name: "init.modem.rc",
-    src: "etc/init.modem.rc",
+    src: "init.modem.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
     name: "init.mt6877.rc",
-    src: "etc/init.mt6877.rc",
+    src: "init.mt6877.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
     name: "init.mt6877.usb.rc",
-    src: "etc/init.mt6877.usb.rc",
+    src: "init.mt6877.usb.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
     name: "init.project.rc",
-    src: "etc/init.project.rc",
+    src: "init.project.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
     name: "init.sec.rc",
-    src: "etc/init.sec.rc",
+    src: "init.sec.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
@@ -71,14 +71,14 @@ prebuilt_etc {
 // fstab
 prebuilt_etc {
     name: "fstab.mt6877",
-    src: "etc/fstab.mt6877",
+    src: "fstab.mt6877",
     vendor: true,
 }
 
 // Recovery
 prebuilt_etc {
     name: "init.recovery.mt6877.rc",
-    src: "etc/init.recovery.mt6877.rc",
+    src: "init.recovery.mt6877.rc",
     recovery: true,
     sub_dir: "init"
 }
@@ -87,6 +87,6 @@ prebuilt_etc {
 prebuilt_etc {
     name: "ueventd.mt6877.rc",
     filename: "ueventd.rc",
-    src: "etc/ueventd.mt6877.rc",
+    src: "ueventd.mt6877.rc",
     vendor: true,
 }
