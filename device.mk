@@ -24,6 +24,9 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+# Properties
+include $(LOCAL_PATH)/configs/properties/logtag.mk
+
 # Rootdir
 PRODUCT_PACKAGES += \
     init.insmod.sh
