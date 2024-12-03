@@ -2,6 +2,14 @@ on init
     setprop sys.usb.ffs.aio_compat 1
     setprop sys.usb.configfs 1
 
+    # unlink /efs > /mnt/vendor/efs
+    rm /efs
+    mkdir /efs
+    mkdir /sec_efs
+
+ #to cut charging battery path
+    write /sys/class/power_supply/battery/siop_level 0
+
 on fs && property:ro.debuggable=0
     # distinguish USB shoulde connect or not, i.e. CDP vs SDP
     write /sys/class/udc/musb-hdrc/device/cmode 2
