@@ -28,6 +28,7 @@ from extract_utils.utils import (
 
 namespace_imports = [
     'hardware/mediatek',
+    'hardware/samsung',
 ]
 
 

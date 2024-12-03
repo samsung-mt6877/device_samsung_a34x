@@ -50,7 +50,8 @@ PRODUCT_SHIPPING_API_LEVEL := 33
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/mediatek
+    hardware/mediatek \
+    hardware/samsung
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/samsung/a34x/a34x-vendor.mk)
