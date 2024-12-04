@@ -54,6 +54,8 @@ BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilts/dtbo.img
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
+    hardware/samsung/vintf/samsung_framework_compatibility_matrix.xml
 
 # Kernel
 TARGET_KERNEL_ARCH := arm64
